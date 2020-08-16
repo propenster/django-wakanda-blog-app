@@ -1,5 +1,5 @@
 # Django Wakanda Blog
-A Blog App written in Django, with user Authentication and Post creation,
+A Blog App written in Django, with user Registration, Authentication and Post creation,
 Post Categories, Commenting etc....
 
 ## Contributors....
