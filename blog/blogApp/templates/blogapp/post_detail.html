@@ -15,19 +15,19 @@
         <!-- Author -->
         <p class="lead">
           by
-          <a href="#">{{ object.post_author }}</a>
+          <a href="#">{{ object.post_author }}</a> in 
           <a href="{% url 'blog-home' %}" class="btn btn-sm btn-primary float-right">Go Back Home</a>
         </p>
 
         <hr>
 
         <!-- Date/Time -->
-        <p>Posted on {{ object.post_pub_date }}</p>
+        <p>Posted on {{ object.post_pub_date }}</p> 
 
         <hr>
 
         <!-- Preview Image -->
-        <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
+        <img class="img-fluid rounded" src="{{ object.post_image.url }}" alt="">
 
         <hr>
 
